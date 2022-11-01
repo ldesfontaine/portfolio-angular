@@ -1,0 +1,27 @@
+$nav-color: #181824;
+
+
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+#nav-container {
+  gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+     a{
+      color: white;
+      text-decoration: none;
+      user-select: none;
+     }
+}
+
+
+.nav {
+  background-color: $nav-color;
+  padding: 1rem;
+}
