@@ -16,6 +16,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { ArticleVeilleComponent } from './article-veille/article-veille.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'; // <-- import this
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,7 @@ import { ArticleVeilleComponent } from './article-veille/article-veille.componen
     MatToolbarModule,
     FontAwesomeModule,
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}], // Ajout de cette ligne
   bootstrap: [AppComponent]
 })
 export class AppModule { }
