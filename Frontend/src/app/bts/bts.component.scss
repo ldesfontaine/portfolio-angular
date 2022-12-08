@@ -12,7 +12,75 @@
   }
 }
 
+.body{
+  p{
+    span::after { // line break after each span
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
 
-#why-bts{
 
+#box_codeExemple{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  img{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+#ice_prediction{
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 40vw;
+  height: 40vw;
+}
+
+
+#diag{  
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 30vw;
+  height: 60vh;
+
+}
+#django{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 20vh;
+}
+
+#univ_logo{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 20vh;
+}
+
+#python_lib{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #7562E0 ;
+
+}
+
+#tensorflow,#kereas{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 20vh;
 }
