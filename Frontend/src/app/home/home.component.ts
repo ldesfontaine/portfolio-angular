@@ -17,10 +17,11 @@ export class HomeComponent implements OnInit {
   faEye = faEye;
 
 
-
+toAbout() {
+    document.getElementById('about')?.scrollIntoView({behavior: 'smooth'});
+  }
 
   ngOnInit() {
-
 
     this.competences = [
       {
@@ -50,7 +51,7 @@ export class HomeComponent implements OnInit {
         description: 'Il s’agit d’un projet effectué en Angular. Il s’agit du ' +
         'portfolio que vous êtes entrain de consulter.',
         site_link: 'https://portfolio.ldesfontaine.me/',
-        github_link: 'https://github.com/ldesfontaine/my-portfolio',
+        github_link: 'https://github.com/ldesfontaine/portfolio-angular',
       },
       {
         imageUrl: '../assets/Image/location.png',
@@ -62,12 +63,6 @@ export class HomeComponent implements OnInit {
       },
 
     ];
-
-
-
-
-
-
 
   }
 }
