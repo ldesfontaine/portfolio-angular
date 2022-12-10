@@ -17,9 +17,13 @@ export class HomeComponent implements OnInit {
   faEye = faEye;
 
 
-toAbout() {
-    document.getElementById('about')?.scrollIntoView({behavior: 'smooth'});
-  }
+
+
+
+scrollToId(id: string) {
+  document.getElementById(id)?.scrollIntoView({behavior: 'smooth'});
+}
+
 
   ngOnInit() {
 

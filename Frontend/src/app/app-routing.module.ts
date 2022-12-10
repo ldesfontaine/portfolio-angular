@@ -9,16 +9,14 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo:'/home', pathMatch: 'full'},
 
-  { path: 'home', component:HomeComponent, pathMatch: 'full' }, // Laisser début de la liste
-  { path: 'parcours', component:ParcoursComponent, pathMatch: 'full' }, // Laisser début de la liste
-  { path: 'veille', component:VeilleComponent, pathMatch: 'full' }, // Laisser début de la liste
-  { path: 'bts', component:BtsComponent, pathMatch: 'full' }, // Laisser début de la liste
+  { path: 'home', component:HomeComponent, }, // Laisser début de la liste
+  { path: 'parcours', component:ParcoursComponent, }, // Laisser début de la liste
+  { path: 'veille', component:VeilleComponent, }, // Laisser début de la liste
+  { path: 'bts', component:BtsComponent }, // Laisser début de la liste
 
 
 
-
-
-  { path: '**', component: AppComponent, pathMatch: 'full' }, // Laisser a la fin de la liste
+  { path: '**', component: AppComponent, }, // Laisser a la fin de la liste
 ];
 
 @NgModule({

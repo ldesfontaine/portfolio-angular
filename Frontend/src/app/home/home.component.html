@@ -10,10 +10,10 @@
           <span>dans le développemet.</span>
         </p>
         <div class="btn-container">
-          <a class="btn full-btn">
+          <a (click)="scrollToId('about')" class="btn full-btn">
             A propos <fa-icon [icon]="faUser"></fa-icon>
           </a>
-          <a class="btn empty-btn" id="btn-projet">
+          <a (click)="scrollToId('my-projects')" class="btn empty-btn" id="btn-projet">
             Mes projets <fa-icon [icon]="faEye"></fa-icon>
           </a>
         </div>
