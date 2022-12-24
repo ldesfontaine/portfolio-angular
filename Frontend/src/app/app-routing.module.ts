@@ -15,7 +15,6 @@ const routes: Routes = [
   { path: 'bts', component:BtsComponent }, // Laisser début de la liste
 
 
-
   { path: '**', component: AppComponent, }, // Laisser a la fin de la liste
 ];
 

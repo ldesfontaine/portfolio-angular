@@ -32,7 +32,7 @@ scrollToId(id: string) {
         imageUrl: '../assets/Image/git.png',
         title: 'Version Controller',
         description: 'J’utilise des outils telle que Git pour versionner mes projets' +
-        'et pour faciliter le travail en équipe'
+        ' et pour faciliter le travail en équipe'
       },
       {
         imageUrl: '../assets/Image/dev.png',
@@ -52,16 +52,16 @@ scrollToId(id: string) {
       {
         imageUrl: '../assets/Image/portfolio.png',
         title: 'Portfolio',
-        description: 'Il s’agit d’un projet effectué en Angular. Il s’agit du ' +
-        'portfolio que vous êtes entrain de consulter.',
+        description: 'Il s’agit du portfolio que vous êtes entrain de consulter.'+
+        ' Il a été réalisé avec le framework Angular',
         site_link: 'https://portfolio.ldesfontaine.me/',
         github_link: 'https://github.com/ldesfontaine/portfolio-angular',
       },
       {
         imageUrl: '../assets/Image/location.png',
         title: 'Projet location de voiture',
-        description: 'Il s’agit d’un projet effectué en Laravel ' +
-        'Il s’agit d’un site de location de voiture',
+        description:'Il s’agit d’un site de location de voiture.'+
+        ' Il a été réalisé avec le framework Laravel',
         site_link: 'https://location.ldesfontaine.me/',
         github_link: 'https://github.com/ldesfontaine/location',
       },

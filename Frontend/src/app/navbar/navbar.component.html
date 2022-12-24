@@ -1,16 +1,16 @@
 <mat-toolbar class="nav">
-  <span class="color-purple ml">Desfontaine Lucas</span>
+  <span class="color-purple ml" id="nav-name">Desfontaine Lucas</span>
 
   <!-- This fills the remaining space of the current row -->
   <span class="example-fill-remaining-space"></span>
-
   <nav id="nav-container">
     <a routerLink="/home"  routerLinkActive="active">Home</a>
-    <a routerLink="/parcours" routerLinkActive="active">Parcours</a>
+    <a routerLink="/parcours" routerLinkActive="active">A propos de moi</a>
     <a routerLink="/veille" routerLinkActive="active">Veille</a>
     <a routerLink="/bts" routerLinkActive="active">BTS</a>
-
+  
   </nav>
+  <button id="toggle-button" (click)="togNav()" >Menu</button>
 
 
 

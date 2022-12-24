@@ -36,3 +36,18 @@
    }
 }
 
+
+
+@media screen and (max-width: 1350px) {
+  #box-container{
+    flex-direction: column;
+    #left-box{
+      margin-bottom: 20px;
+    }
+    #right-box{
+      #name,#email,#message{
+        width: 80vw;
+      }
+    }
+  }
+}

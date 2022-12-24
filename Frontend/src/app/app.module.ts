@@ -16,7 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
 import { ArticleVeilleComponent } from './article-veille/article-veille.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common'; // <-- import this
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [

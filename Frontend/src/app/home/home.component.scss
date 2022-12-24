@@ -88,3 +88,18 @@ $purple-color :#7562E0;
   flex-direction: row;
   gap: 8vw;
 }
+
+
+//responsive #competences
+@media screen and (max-width: 1350px) {
+  #image-presentation{
+    display: none;
+  }
+  #competences{
+    flex-direction: column;
+  }
+  #projets-row {
+    flex-direction: column;
+  }
+
+}

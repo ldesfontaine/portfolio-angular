@@ -32,3 +32,11 @@ $purple-color: #7562E0;
   border: 3px solid white;
   border-radius: 16px;
 }
+
+//responsive at @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 600px) {
+    #box{
+      width: 100%;
+  }
+}
