@@ -4,10 +4,10 @@
   <!-- This fills the remaining space of the current row -->
   <span class="example-fill-remaining-space"></span>
   <nav id="nav-container">
-    <a routerLink="/home"  routerLinkActive="active">Home</a>
-    <a routerLink="/parcours" routerLinkActive="active">A propos de moi</a>
-    <a routerLink="/veille" routerLinkActive="active">Veille</a>
-    <a routerLink="/bts" routerLinkActive="active">BTS</a>
+    <a routerLink="/home"  routerLinkActive="active" (click)="togNav()" >Home</a>
+    <a routerLink="/parcours" routerLinkActive="active" (click)="togNav()" >A propos de moi</a>
+    <a routerLink="/veille" routerLinkActive="active" (click)="togNav()" >Veille</a>
+    <a routerLink="/bts" routerLinkActive="active" (click)="togNav()" >BTS</a>
   
   </nav>
   <button id="toggle-button" (click)="togNav()" >Menu</button>
